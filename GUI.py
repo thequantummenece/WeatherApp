@@ -144,7 +144,7 @@ class MyDayApp(QWidget):
             night_window = night_design.invoke(temp, temp_max, temp_min, name, date, wind, weth)
             self.hide()
             night_window.show()
-
+            # Hello World
             # Reconnect the resizeEvent
             self.resizeEvent = self.originalResizeEvent
 
